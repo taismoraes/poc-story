@@ -2,7 +2,6 @@
   "name": "poc-story",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://taismoraes.github.io/poc-story",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -20,7 +19,6 @@
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
     "chromatic": "npx chromatic --project-token=60ca5af38f39",
-    "predeploy": "npm run build-storybook",
     "deploy-storybook": "gh-pages -d storybook-static"
   },
   "eslintConfig": {
@@ -72,5 +70,8 @@
     "webpack": "^5.75.0"
   },
   "readme": "ERROR: No README data found!",
-  "_id": "poc-story-new@0.1.0"
+  "_id": "poc-story-new@0.1.0",
+  "msw": {
+    "workerDirectory": "public"
+  }
 }
