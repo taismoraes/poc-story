@@ -26,6 +26,12 @@ export const Secondary = Template.bind({});
 Secondary.args = {
   label: 'Button',
 };
+Secondary.parameters = {
+  design: {
+    type: "figma",
+    url: "https://www.figma.com/file/y6CIvws1rHXJoWq0q2hgt2/Ignite-Lab-Design-System?node-id=1%3A170&t=ghEcq3BKlNl6NDuw-0"
+  }
+}
 
 export const Large = Template.bind({});
 Large.args = {
