@@ -29,7 +29,7 @@ Secondary.args = {
 Secondary.parameters = {
   design: {
     type: "figma",
-    url: "https://www.figma.com/file/y6CIvws1rHXJoWq0q2hgt2/Ignite-Lab-Design-System?node-id=1%3A170&t=ghEcq3BKlNl6NDuw-0"
+    url: "https://www.figma.com/file/y6CIvws1rHXJoWq0q2hgt2/Ignite-Lab-Design-System?node-id=1%3A170&t=1suMJekJE9qQ6Gqc-1"
   }
 }
 
